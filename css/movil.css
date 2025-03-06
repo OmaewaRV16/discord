@@ -1,0 +1,162 @@
+
+@media (max-width: 932px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        max-width: 80%;
+    }
+
+    .hero p {
+        margin: auto;
+    }
+
+    .downloads {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedor_nav {
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login-btn {
+        margin-top: 15px;
+    }
+
+    .download-box {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Reduce font size for mobile */
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    /* Resize social icons */
+    .social-icons i {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .login-btn {
+        margin-top: 10px;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
+
+    .hero img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .downloads {
+        padding: 40px 10px;
+    }
+
+    .download-box {
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .download-box h3 {
+        font-size: 1.3rem;
+    }
+
+    .download-box button {
+        font-size: 0.9rem;
+    }
+
+    .footer-column {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .footer-column h3 {
+        font-size: 14px;
+    }
+
+    .footer-column a {
+        font-size: 12px;
+    }
+
+    .social-icons i {
+        font-size: 14px;
+    }
+
+    .sign-up-btn {
+        font-size: 12px;
+    }
+
+    /* Language selector */
+    #language-selector {
+        font-size: 14px;
+    }
+}
+@media (max-width: 450px) {
+    .menu {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .contenedor_nav {
+        justify-content: space-between;
+    }
+}
